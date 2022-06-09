@@ -1,0 +1,56 @@
+body {
+   display: flex;
+   justify-content: center;
+}
+.calculator {
+   height: 400px;
+   width: 200px;
+   margin-top: 40px;
+   padding: 50px 50px;
+   position: relative;
+   border-radius: 20px;
+}
+
+.cal-con {
+   height: 140px;
+   width: 201px;
+   position: relative;
+   border : 2px  solid green;
+   border-right : none ; 
+   border-left : none;
+   border-top:none
+}
+p{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+input
+{ 
+text-align: right;
+position : absolute;
+right : 0;
+bottom : 0 ;
+margin-bottom : 10px; 
+width : 190px;
+border: none;
+font-size: larger;
+}
+
+.cal-keys {
+   display: grid;
+   grid-template-columns: 50px 50px 50px 50px;
+   margin-right: 50px;
+   padding-top: 15px;
+}
+.button-item {
+   height: 45px;
+   width: 45px;
+   margin: 6px 3px;
+   border-radius: 20px;
+   font-weight: bold;
+   font-size: larger;
+   background-color: grey;
+   border:2px solid tomato;
+}
